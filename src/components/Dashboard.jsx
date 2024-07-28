@@ -32,13 +32,13 @@ function Dashboard() {
 
         <div>
                 {loading ? <Spinner/> : (
-        <div className='h-[100vh] flex flex-col justify-center bg-gradient-to-r from-blue-500 to-green-500 text-white'>
+        <div className='min-h-[100vh] pb-10 flex flex-col justify-center bg-gradient-to-r from-blue-500 to-green-500 text-white'>
             <div className='w-full flex justify-center'>
                 <div className=" w-9/12 flex flex-col justify-center items-center">
                     <div className="text-center mb-8">
-                        <h1 className="text-4xl font-bold mb-4">Welcome to the Dashboard</h1>
+                        <h1 className="text-4xl font-bold mt-20 md:mb-8">Welcome to the Dashboard</h1>
                     </div>
-                    <div className='flex gap-6'>
+                    <div className='flex flex-col md:flex-row gap-6'>
 
                         <div className="bg-white text-black mb-3 p-6 rounded-lg shadow-lg max-w-xs w-full text-center">
                             <h2 className="text-2xl font-bold mb-2">Total Employees</h2>
