@@ -25,7 +25,7 @@ const EmployeeList = () => {
   const fetchEmployees = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('api/api/v1/employees', {
+      const response = await axios.get('/api/api/v1/employees', {
         params: {
           keyword,
           page,
