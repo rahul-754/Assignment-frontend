@@ -1,55 +1,55 @@
+Certainly! Based on the provided image, I'll draft a README file for both the frontend and backend of the Employee Management Admin Panel project.
+
+## Frontend README
+
+
+### Project Overview
+
 The frontend of the Employee Management Admin Panel is built with React and provides a user-friendly interface for administrators to manage employee information. This includes adding, editing, and deleting employee records.
 
-Features
+### Features
 
-Employee Management: Add, edit, delete, and view employee details.
+- **Employee Management**: Add, edit, delete, and view employee details.
+- **Search and Filter**: Easily search and filter employee records.
+- **Responsive Design**: Fully responsive and works on all devices.
+- **Authentication**: Secure login and logout functionality.
 
-Search and Filter: Easily search and filter employee records.
+### Technologies Used
 
-Responsive Design: Fully responsive and works on all devices.
-
-Role-Based Access Control: Different levels of access for administrators and regular users.
-
-Authentication: Secure login and logout functionality.
-
-
-Technologies Used
-
-React: JavaScript library for building user interfaces.
-
-React Router: Declarative routing for React applications.
-
-Axios: Promise-based HTTP client for making API requests.
-
-Installation
-
-Clone the repository: https://github.com/rahul-754/Assignment-frontend.git
-
-Install dependencies:
-
-npm install
-
-Start the development server:
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: Declarative routing for React applications.
+- **Axios**: Promise-based HTTP client for making API requests.
 
 
-npm run dev
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/employee-management-frontend.git
+   cd employee-management-frontend
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
+
+### Usage
+
+- **Login Page**: Enter your username and password to access the admin panel.
+- **Dashboard**: View a summary of the employee data.
+- **Create Employee**: Add new employee details using the provided form.
+- **Employee List**: View, search, and filter the list of employees. Edit or delete employee records as needed.
+- **Edit Employee**: Update existing employee details.
 
 
-Usage
 
+### License
 
-Login Page: Enter your username and password to access the admin panel.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Dashboard: View a summary of the employee data.
-
-Create Employee: Add new employee details using the provided form.
-
-Employee List: View, search, and filter the list of employees. Edit or delete employee records as needed.
-
-Edit Employee: Update existing employee details.
-
-
-License
-
-
-This project is licensed under the MIT License - see the LICENSE file for details.
