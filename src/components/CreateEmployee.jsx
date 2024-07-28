@@ -62,7 +62,8 @@ const CreateEmployee = () => {
       console.log("this i sdata",response)
       navigate('/employee');
     } catch (error) {
-      console.error('There was an error!', error);
+      // console.error('There was an error!', error);
+      alert("Email already exists.");
     }
   };
 
