@@ -70,8 +70,8 @@ const CreateEmployee = () => {
   const courseOptions = ['MBA', 'BCA', 'BSC'];
 
   return (
-    <div className='flex flex-col justify-center items-center min-h-screen bg-gray-100 p-6'>
-      <h1 className='text-2xl font-bold my-4'>Create Employee</h1>
+    <div className='flex flex-col justify-center items-center min-h-[100vh] bg-gray-100 p-6'>
+      <h1 className='text-2xl font-bold mb-4 mt-10'>Create Employee</h1>
       <form onSubmit={handleSubmit} className='w-full max-w-md bg-white p-8 border border-gray-200 rounded-lg shadow-md'>
         <div className='mb-2'>
           <label htmlFor="name" className='block text-sm font-medium mb-1'>Name:</label>
