@@ -59,7 +59,7 @@ const CreateEmployee = () => {
     }
     try {
       const response = await axios.post('https://assignment-backend-ikzz.onrender.com/api/v1/create', employee);
-      console.log("this i sdata",response)
+     
       navigate('/employee');
     } catch (error) {
       // console.error('There was an error!', error);
