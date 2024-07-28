@@ -34,7 +34,7 @@ The frontend of the Employee Management Admin Panel is built with React and prov
 
 3. **Start the development server**:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ### Usage
