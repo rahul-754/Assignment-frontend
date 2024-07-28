@@ -109,6 +109,7 @@ const EmployeeList = () => {
         <table className='w-full bg-white border border-gray-200 rounded-lg shadow-md'>
           <thead>
             <tr className='bg-gray-100 text-left border-b'>
+                <th className='py-2 px-4'>ID</th>
               <th className='py-2 px-4 cursor-pointer' onClick={() => handleSort('name')}>Name</th>
               <th className='py-2 px-4 cursor-pointer' onClick={() => handleSort('email')}>Email</th>
               <th className='py-2 px-4'>Mobile</th>
@@ -121,6 +122,7 @@ const EmployeeList = () => {
           <tbody>
             {employees.map((employee) => (
               <tr key={employee._id} className='border-b'>
+                 <td className='py-2 px-4'>{employee.employeeId}</td>
                 <td className='py-2 px-4'>{employee.name}</td>
                 <td className='py-2 px-4'>{employee.email}</td>
                 <td className='py-2 px-4'>{employee.mobile}</td>
