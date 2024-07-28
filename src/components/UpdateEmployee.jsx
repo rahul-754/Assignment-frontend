@@ -107,11 +107,9 @@ const UpdateEmployee = () => {
           >
             <option value="">Select Designation</option>
             <option value="Manager">Manager</option>
-            <option value="Developer">Developer</option>
-            <option value="Designer">Designer</option>
-            <option value="QA Engineer">QA Engineer</option>
-            <option value="HR Specialist">HR Specialist</option>
-            {/* Add more options as needed */}
+            <option value="Sales">Sales</option>
+            <option value="HR">HR</option>
+  
           </select>
         </div>
         <div className='mb-2'>
@@ -141,18 +139,7 @@ const UpdateEmployee = () => {
               />
               <label htmlFor="gender-female" className='text-sm'>Female</label>
             </div>
-            <div>
-              <input
-                type="radio"
-                id="gender-other"
-                name="gender"
-                value="Other"
-                checked={employee.gender === 'Other'}
-                onChange={handleChange}
-                className='mr-2'
-              />
-              <label htmlFor="gender-other" className='text-sm'>Other</label>
-            </div>
+           
           </div>
         </div>
         <div className='mb-2'>
