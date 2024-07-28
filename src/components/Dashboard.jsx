@@ -12,7 +12,8 @@ function Dashboard() {
     const fetchEmployees = async () => {
         setLoading(true);
         try {
-            const response = await axios.get('/api/api/v1/getAllEmployees');
+            console.log("I am ");
+            const response = await axios.get('https://assignment-backend-ikzz.onrender.com/api/v1/getAllEmployees');
             console.log(response.data);
             setEmp(response.data);
 
