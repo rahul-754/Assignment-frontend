@@ -25,7 +25,7 @@ const EmployeeList = () => {
   const fetchEmployees = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('/api/api/v1/employees', {
+      const response = await axios.get('https://assignment-backend-ikzz.onrender.com/api/v1/employees', {
         params: {
           keyword,
           page,
@@ -58,7 +58,7 @@ const EmployeeList = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`/api/api/v1/delete/${id}`);
+      await axios.delete(`https://assignment-backend-ikzz.onrender.com/api/v1/delete/${id}`);
       setEmployees(employees.filter(employee => employee._id !== id));
       navigate("/employee")
     } catch (err) {
