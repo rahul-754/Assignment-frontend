@@ -1,6 +1,4 @@
-Certainly! Based on the provided image, I'll draft a README file for both the frontend and backend of the Employee Management Admin Panel project.
 
-## Frontend README
 
 
 ### Project Overview
