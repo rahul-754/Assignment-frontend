@@ -19,7 +19,7 @@ const UpdateEmployee = () => {
     // Fetch employee details by ID when component mounts
     const fetchEmployee = async () => {
       try {
-        const response = await axios.get(`/api/api/v1/employees/${id}`);
+        const response = await axios.get(`https://assignment-backend-ikzz.onrender.com/api/v1/employees/${id}`);
         setEmployee(response.data);
       } catch (error) {
         console.error('Error fetching employee data:', error);
@@ -39,7 +39,7 @@ const UpdateEmployee = () => {
   const handleUpdate = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.put(`/api/api/v1/update/${id}`, employee);
+      const response = await axios.put(`https://assignment-backend-ikzz.onrender.com/api/v1/update/${id}`, employee);
       console.log('Employee updated:', response.data);
       const output = response.data;
      
